@@ -1,0 +1,17 @@
+1. Install GIT.
+2. Project on https://github.com/gaurav1781/vicroad-solution
+3. Install eclipse IDE from  https://www.eclipse.org/
+4. Install cucumber eclipse plugin : Eclipse -> Help -> Eclipse Marketplace and search Cucumber eclipse plugin
+5. Open the existing Git project from Eclipse: 
+	5.1 File - Import - Git(Projects from Git) - Clone URI ->
+	5.1.1 URI : https://github.com/gaurav1781/vicroad-solution
+	5.1.2 Host : github.com
+	5.1.3 Repository Path: /gaurav1781/vicroad-solution -> Do Next and Finish creating project
+6. Build the path of the project and add dependent libraries from github project path(https://github.com/gaurav1781/mindtree-solution/tree/master/libs )
+	6.1 Right click on Project -> Build Path -> configure build path -> Add External jars
+	6.2 All the dependent jar files are under https://github.com/gaurav1781/mindtree-solution/tree/master/libs.These files have to be downloaded 
+		to local and then added to build path of the project.
+7. System should have chrome v92.0
+8. Change the path of chromedriver in the java program wherever chromedriver is saved on local.
+9. Run the project as JUNIT Test. Right click on project -> Run as JUNIT Test
+10. Verify results at your local drive path(Project Directory) : /vicroad-solution/target -> HTML Report should be created showing results.

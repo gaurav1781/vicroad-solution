@@ -12,6 +12,6 @@
 	6.2 All the dependent jar files are under https://github.com/gaurav1781/vicroad-solution/tree/master/libs.These files have to be downloaded 
 		to local and then added to build path of the project.
 7. System should have chrome v92.0
-8. Change the path of chromedriver in the java program wherever chromedriver is saved on local.
+8. Change the path of chromedriver in the java program(testcase2.java-> line22) to wherever chromedriver is saved on local drive.
 9. Run the project as JUNIT Test. Right click on project -> Run as JUNIT Test
 10. Verify results at your local drive path(Project Directory) : /vicroad-solution/target -> HTML Report should be created showing results.
